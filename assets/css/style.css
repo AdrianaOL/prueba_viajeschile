@@ -1,5 +1,5 @@
 .bg-navbar {
-    background: rgba(2, 0, 36, 0.452);
+    background: rgba(13, 13, 14, 0.753);
   }
   
   .carousel-item img {
@@ -26,5 +26,22 @@
   }
   
   .custom-icon:hover {
-    color: aqua;
+    color: rgb(40, 44, 44);
   }
+  main{
+    background-color: black;
+  }
+  p{
+    color: #fff;
+  }
+  h2{
+    color: #fff;
+  }
+  h5{
+    color: #fff;
+  }
+  hr{
+    border-color: aqua;
+  }
+
+  
