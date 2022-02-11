@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // Smooth scroll
+    //  Inicio Smooth scroll
     $("a").on('click', function (event) {
         if (this.hash !== "") {
             event.preventDefault();
@@ -11,7 +11,13 @@ $(document).ready(function () {
             });
         }
     });
-    // End Smooth Scroll
+    // fin  Smooth Scroll
+    //inicio alert enviar correo
+
+       $(function(){
+      $("#enviarCorreo").click(function(_event)
+      { alert("El correo fue enviado correctamente") }); });
+    //fin alert enviar correo
     // Activacion de Pop Over
     $('[data-toggle="popover"]').popover()
 });
